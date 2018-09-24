@@ -38,7 +38,7 @@ FileManager::read_csv('res/airports.csv', ['ident', 'name', 'latitude_deg', 'lon
 // echo var_dump($currentPos->timeTo($destination, 450));
 // die();
 
-$req = NetworkRequest::JSON('https://public-api.adsbexchange.com/VirtualRadar/AircraftList.json?fOpIcaoQ=KLM');
+$req = NetworkRequest::JSON('https://public-api.adsbexchange.com/VirtualRadar/AircraftList.json?fOpIcaoQ=AAR');
 # KLC -> KLM Cityhopper
 # AAR -> Asiana Airlines
 
